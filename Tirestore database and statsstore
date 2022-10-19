@@ -1,0 +1,17 @@
+Create tirestore database
+
+CREATE TABLE tirestore (ID INTEGER Primary key, name text, quantity INTEGER, price INTEGER);
+
+INSERT into Tirestore VALUES (1, "Kumho", 5, 300);
+INSERT into Tirestore VALUES (2, "michelin", 10, 500);
+INSERT into Tirestore VALUES (3, "firestone", 7, 450);
+INSERT into Tirestore VALUES (4, "Conti", 6, 250);
+INSERT into Tirestore VALUES (5, "goodyr", 16, 700); 
+
+display database by price
+
+SELECT * FROM Tirestore ORDER by Price;
+
+Tally the total quantity
+
+SELECT SUM(quantity) from tirestore
